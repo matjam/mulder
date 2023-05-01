@@ -34,7 +34,7 @@ def install():
         ],
         packages=find_packages(exclude=("tests",)),
         install_requires=[
-            "Flask==1.1.2",
+            "Flask==2.3.2",
             "Flask-Migrate==2.5.3",
             "Flask-Script==2.0.6",
             "Flask-SQLAlchemy==2.4.1",
